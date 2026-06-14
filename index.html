@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Presentación Académica - Reveal.js</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+	<style>
+		body {
+			background: #1a1a1a;
+		}
+		.reveal h1, .reveal h2, .reveal h3 {
+			text-transform: none;
+			font-weight: bold;
+		}
+		.reveal {
+			font-size: 36px;
+		}
+		.highlight {
+			color: #42b983;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="reveal">
+		<div class="slides">
+
+			<!-- Slide 1: Portada -->
+			<section>
+				<h1 class="highlight">Mi Proyecto Académico</h1>
+				<h3>Una presentación profesional con Reveal.js</h3>
+				<p style="margin-top: 60px; font-size: 24px;">Autor: Tu Nombre</p>
+				<p style="font-size: 18px; color: #999;">Fecha: 2026</p>
+			</section>
+
+			<!-- Slide 2: Introducción -->
+			<section>
+				<h2>¿Qué es esto?</h2>
+				<p>Esta es una presentación creada con <span class="highlight">Reveal.js</span></p>
+				<ul>
+					<li class="fragment">📊 Animaciones suaves</li>
+					<li class="fragment">🎨 Diseño profesional</li>
+					<li class="fragment">⚡ Interactivo</li>
+					<li class="fragment">📱 Responsive</li>
+				</ul>
+			</section>
+
+			<!-- Slide 3: Características -->
+			<section>
+				<section>
+					<h2>Características Principales</h2>
+					<p style="font-size: 24px; color: #999;">↓ Usa las flechas para explorar ↓</p>
+				</section>
+				<section>
+					<h3>🎬 Animaciones</h3>
+					<p>Los elementos aparecen con efecto <span class="fragment highlight">fragment</span></p>
+					<p class="fragment">Como este texto...</p>
+					<p class="fragment">Y este otro...</p>
+				</section>
+				<section>
+					<h3>🎨 Temas</h3>
+					<p>Puedes cambiar el tema en la línea 8 del HTML</p>
+					<p style="font-size: 20px; color: #999;">black, white, league, sky, beige, simple, serif, blood, night, moon, solarized</p>
+				</section>
+				<section>
+					<h3>⌨️ Controles</h3>
+					<p style="font-size: 28px;">→ Siguiente</p>
+					<p style="font-size: 28px;">← Anterior</p>
+					<p style="font-size: 28px;">F = Pantalla completa</p>
+					<p style="font-size: 28px;">ESC = Vista general</p>
+				</section>
+			</section>
+
+			<!-- Slide 4: Contenido -->
+			<section>
+				<h2>Contenido del Proyecto</h2>
+				<table style="margin-top: 40px;">
+					<tr>
+						<th>Fase</th>
+						<th>Descripción</th>
+						<th>Estado</th>
+					</tr>
+					<tr class="fragment">
+						<td>Investigación</td>
+						<td>Recopilar datos</td>
+						<td style="color: #42b983;">✓</td>
+					</tr>
+					<tr class="fragment">
+						<td>Desarrollo</td>
+						<td>Implementar solución</td>
+						<td style="color: #42b983;">✓</td>
+					</tr>
+					<tr class="fragment">
+						<td>Pruebas</td>
+						<td>Validar resultados</td>
+						<td style="color: #f1fa8c;">⏳</td>
+					</tr>
+				</table>
+			</section>
+
+			<!-- Slide 5: Código (ejemplo) -->
+			<section>
+				<h2>Ejemplo de Código</h2>
+				<pre><code class="language-javascript" data-trim>
+function saludar(nombre) {
+	return `¡Hola, ${nombre}!`;
+}
+
+console.log(saludar("Jacqueline"));
+				</code></pre>
+			</section>
+
+			<!-- Slide 6: Conclusión -->
+			<section>
+				<h2>Conclusiones</h2>
+				<ul>
+					<li class="fragment">✨ Reveal.js es poderoso y flexible</li>
+					<li class="fragment">🚀 Fácil de customizar</li>
+					<li class="fragment">💯 Resultado profesional</li>
+					<li class="fragment">🎯 Perfecto para proyectos académicos</li>
+				</ul>
+			</section>
+
+			<!-- Slide 7: Fin -->
+			<section>
+				<h1 class="highlight">¡Gracias!</h1>
+				<p style="margin-top: 60px; font-size: 24px;">¿Preguntas?</p>
+				<p style="font-size: 18px; color: #999; margin-top: 40px;">Pulsa ESC para ver todas las slides</p>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+	<script>
+		Reveal.initialize({
+			hash: true,
+			transition: 'slide',
+			transitionSpeed: 'default',
+			controlsTutorial: true,
+			progress: true,
+			center: true,
+			width: '100%',
+			height: '100%'
+		});
+	</script>
+</body>
+</html>
